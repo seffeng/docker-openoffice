@@ -10,6 +10,7 @@ ENV OPENOFFICE_URL="https://zenlayer.dl.sourceforge.net/project/openofficeorg.mi
 WORKDIR /tmp
 
 COPY run.sh ./
+COPY fonts/ /usr/share/fonts/win/
 
 RUN apt update && apt install -y ${BASE_PACKAGE} ${EXTEND} &&\
  wget ${OPENOFFICE_URL} &&\
