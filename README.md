@@ -17,7 +17,7 @@ openoffice: 4.1.14
 # 拉取镜像
 $ docker pull seffeng/openoffice
 
-# 运行，注意：配置<data-dir>运行将失败，请查看备注说明
+# 运行
 $ docker run --name openoffice-test -d -p <port>:80 seffeng/openoffice
 
 # 查看正在运行的容器
