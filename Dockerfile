@@ -1,7 +1,7 @@
 FROM seffeng/debian:11
 
 ENV BASE_PACKAGE="wget"\
- EXTEND="libxext-dev libfreetype-dev openjdk-11-jdk fontconfig fonts-wqy-zenhei fonts-wqy-microhei fonts-arphic-ukai fonts-arphic-uming"\
+ EXTEND="libxext-dev libfreetype-dev openjdk-11-jre fontconfig fonts-wqy-zenhei fonts-wqy-microhei fonts-arphic-ukai fonts-arphic-uming"\
  OPENOFFICE_NAME="Apache_OpenOffice_4.1.14_Linux_x86-64_install-deb_zh-CN.tar.gz"\
  OPENOFFICE_FILE="openoffice4.1-debian-menus_4.1.14-9811_all.deb"
 
